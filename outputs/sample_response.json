@@ -1,0 +1,22 @@
+{
+  "score": 88,
+  "missing_keywords": [
+    "REST APIs",
+    "scalable AI applications",
+    "unstructured data processing",
+    "cross-functional collaboration",
+    "deployment"
+  ],
+  "strengths": [
+    "Strong Python foundation",
+    "Relevant NLP and prompt engineering exposure",
+    "Hands-on machine learning project experience"
+  ],
+  "improvements": [
+    "Add one deployed GenAI application",
+    "Highlight REST API implementation",
+    "Mention collaboration outcomes in project bullets"
+  ],
+  "tailored_summary": "Computer Science undergraduate with strong foundations in Python, machine learning, NLP, and LLM workflows. Experienced in data preprocessing, feature engineering, prompt engineering, and predictive modeling. Passionate about building scalable AI-powered applications and solving real-world problems with Generative AI.",
+  "raw_llm_output": "{\"score\": 88, \"missing_keywords\": [\"REST APIs\", \"scalable AI applications\", \"unstructured data processing\", \"cross-functional collaboration\", \"deployment\"], \"strengths\": [\"Strong Python foundation\", \"Relevant NLP and prompt engineering exposure\", \"Hands-on machine learning project experience\"], \"improvements\": [\"Add one deployed GenAI application\", \"Highlight REST API implementation\", \"Mention collaboration outcomes in project bullets\"], \"tailored_summary\": \"Computer Science undergraduate with strong foundations in Python, machine learning, NLP, and LLM workflows. Experienced in data preprocessing, feature engineering, prompt engineering, and predictive modeling. Passionate about building scalable AI-powered applications and solving real-world problems with Generative AI.\"}"
+}

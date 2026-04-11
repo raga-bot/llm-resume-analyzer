@@ -1,0 +1,1 @@
+We are hiring a GenAI / Python Developer with experience in Python, NLP, LLM workflows, prompt engineering, REST APIs, structured and unstructured data processing, and strong problem-solving skills. The ideal candidate can collaborate across teams and build scalable AI-powered applications.

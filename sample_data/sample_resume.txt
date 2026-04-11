@@ -1,0 +1,1 @@
+Computer Science undergraduate with strong foundations in Python, SQL, machine learning, NLP, and building predictive models. Experienced in data preprocessing, feature engineering, prompt engineering, and model evaluation. Built projects involving LLM-based resume analysis, traffic prediction, and customer churn prediction.

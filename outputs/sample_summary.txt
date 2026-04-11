@@ -1,0 +1,11 @@
+ATS Match Score: 88/100
+
+Top Strengths:
+- Strong Python foundation
+- Relevant NLP and prompt engineering exposure
+- Hands-on machine learning project experience
+
+Top Improvement Areas:
+- Add one deployed GenAI application
+- Highlight REST API implementation
+- Mention collaboration outcomes in project bullets
