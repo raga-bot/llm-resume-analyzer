@@ -1,94 +1,59 @@
-# LLM Resume Analyzer
+# LLM Resume Analyzer (GenAI Project)
 
-A recruiter-ready GenAI project that compares a resume against a job description and returns ATS-style insights such as match score, missing keywords, strengths, improvement areas, and a tailored professional summary.
+## Overview
+The LLM Resume Analyzer is a Generative AI-powered application that evaluates a candidate’s resume against a job description and provides ATS-style insights.
 
-## Features
-- Resume vs Job Description analysis
-- ATS-style score generation
-- Missing keyword extraction
-- Tailored summary generation
-- FastAPI backend
-- Prompt engineering workflow
-- OpenAI-compatible API support
-- Sample outputs for recruiter review
+It uses Large Language Models (LLMs) to simulate how recruiters and ATS systems assess resumes and helps improve resume quality for better shortlisting.
+
+## Key Features
+- ATS match score generation (0–100)
+- Missing keyword identification
+- Strengths and improvement suggestions
+- AI-generated tailored resume summary
+- FastAPI-based REST API
+- Structured JSON output
+- Sample outputs included
 
 ## Tech Stack
-- Python
-- FastAPI
-- Prompt Engineering
-- LLM Integration
-- REST API
-- Pydantic
-- Requests
+- Python  
+- FastAPI  
+- OpenAI-compatible APIs  
+- Prompt Engineering  
+- Pydantic  
+- Requests  
+- Pytest   
 
-## Project Structure
-```text
-llm-resume-analyzer/
-├── app/
-├── tests/
-├── sample_data/
-├── outputs/
-├── .github/workflows/
-├── README.md
-├── requirements.txt
-├── .env.example
-└── .gitignore
-```
+## How It Works
 
-## Setup
-```bash
-git clone https://github.com/YOUR_USERNAME/llm-resume-analyzer.git
-cd llm-resume-analyzer
-python -m venv .venv
-```
+1. Input resume text and job description  
+2. LLM analyzes the content  
+3. Generates structured ATS insights  
+4. Returns JSON output including score and suggestions  
 
-### Activate environment
-Windows:
-```bash
-.venv\Scripts\activate
-```
+## API Endpoints
 
-Mac/Linux:
-```bash
-source .venv/bin/activate
-```
+GET /health  
+POST /analyze  
 
-### Install dependencies
-```bash
-pip install -r requirements.txt
-```
+## Request
 
-### Configure environment
-Copy `.env.example` to `.env` and set your API key.
-
-### Run the app
-```bash
-uvicorn app.main:app --reload
-```
-
-Open:
-- API docs: `http://127.0.0.1:8000/docs`
-- Health endpoint: `http://127.0.0.1:8000/health`
-
-## Sample API Request
-POST `/analyze`
-```json
 {
-  "resume_text": "Computer Science undergraduate with strong foundations in Python, SQL, machine learning, NLP, and building predictive models...",
-  "job_description": "We are hiring a GenAI / Python Developer with experience in Python, NLP, LLM workflows, prompt engineering..."
+  "resume_text": "Your resume content...",
+  "job_description": "Job description content..."
 }
-```
 
-## Sample Output
-See:
-- `outputs/sample_response.json`
-- `outputs/sample_summary.txt`
+## Output
 
-## Resume Bullet
-Developed an LLM-powered Resume Analyzer using FastAPI and OpenAI-compatible APIs to evaluate resumes against job descriptions, generate ATS-style match scores, identify missing keywords, and produce tailored professional summaries.
+Check:
+outputs/sample_response.json  
+outputs/sample_summary.txt  
 
-## Future Enhancements
-- PDF/DOCX resume parsing
-- Streamlit or React frontend
-- Embeddings-based retrieval
-- Candidate comparison dashboard
+## Use Case
+
+- Resume screening automation  
+- ATS optimization  
+- Recruitment support tools  
+- GenAI-based text analysis  
+
+## Author
+Besta Sudha Ragavarshini 
