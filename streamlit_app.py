@@ -6,7 +6,7 @@ import streamlit as st
 
 from app.parsers import parse_resume_file, parse_job_description_file
 
-API_URL = st.secrets.get("API_URL", os.getenv("API_URL", "http://127.0.0.1:8000/analyze"))
+API_URL = st.secrets.get("API_URL", os.getenv("API_URL", "https://llm-resume-analyzer-api.onrender.com/analyze"))
 
 st.set_page_config(
     page_title="LLM Resume Analyzer",
