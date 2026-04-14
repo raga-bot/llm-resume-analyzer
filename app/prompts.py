@@ -17,10 +17,10 @@ Required JSON format:
 
 Rules:
 - score must be an integer from 0 to 100
-- missing_keywords must contain 5 to 12 meaningful keywords if possible
-- strengths must contain 3 to 6 short phrases
-- improvements must contain 3 to 6 short phrases
-- tailored_summary must be 3 to 5 lines, professional and ATS-friendly
+- missing_keywords must contain 3 to 8 meaningful keywords if possible
+- strengths must contain 3 to 5 short phrases
+- improvements must contain 3 to 5 short phrases
+- tailored_summary must be 2 to 4 lines, professional and ATS-friendly
 - Output ONLY JSON, no markdown
 """.strip()
 
